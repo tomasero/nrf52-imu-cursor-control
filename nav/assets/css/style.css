@@ -1,0 +1,27 @@
+body {
+    background-color: #FFFFFF;
+/*    background-color: rgba(70, 0, 100, 1);*/
+    color:  #302F2F;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+#target {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 200px;
+}
+
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: teal;
+}
