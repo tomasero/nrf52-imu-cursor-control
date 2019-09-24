@@ -19,3 +19,8 @@ For multiple:
 - Open 'cursorCtrl.xcworkspace'
 - Send data via UDP
 - Run!
+
+### Target genrator
+    
+    cd nav
+    open index.html
